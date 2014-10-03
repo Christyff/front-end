@@ -29,8 +29,15 @@
   <body>
   	<h1>Hello <em>World</em> </h1>
   	<p class="special">My name is <span id="user-name"> Fei </span> </p>
+  	<script type="text/javascript">
+  		function replaceName() {
+  			var myNewName=window.prompt('Pick a new name!');
+  			document.getElementById('user-name').innerHYML=myNewName;
+  		}
+  		documnet.onclick=relapceName;
+  	</script>
   	<p>I like:</p>
-
+  	
   	<ul>
   		<li>dog</li>
   		<li>piano</li>
